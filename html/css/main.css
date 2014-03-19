@@ -1,0 +1,335 @@
+html, body, a, input, textarea, select{
+	font-family: Tahoma, Arial, Verdana, Georgia, sans-serif;
+}
+html, body{
+	height: 100%;
+}
+img{
+	display: inline-block;
+	*display: inline;
+	vertical-align: top;
+	zoom: 1;
+}
+A:hover{
+	text-decoration: none;
+}
+
+form{
+	margin: 0;
+	padding: 0;
+}
+
+.i-clear{
+	display: block;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 1px;
+	overflow: hidden;
+}
+
+.i-clearfix:before, .i-clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	font-size: 0;
+}
+.i-clearfix:after{
+	clear: both;
+}
+*+html .i-clearfix{
+	zoom: 1;
+}
+
+input[type="image"], input[type="button"], label{ cursor: pointer; }
+table{ width: 100%; border-collapse: collapse; border-spacing: 0; border: 0; }
+
+.checkbox{
+	position: relative;
+	top: 2px;
+}
+* html .checkbox{
+	top: 1px;
+}
+*+html .checkbox{
+	top: 1px;
+}
+
+@media not all and (-webkit-min-device-pixel-ratio){
+	.checkbox{
+		top: 0;
+	}
+}
+
+/*
+	Памятка по использованию селекторов browserCSSdetector.js:
+		Селекторы ОСи:
+			.win - Windows
+			.linux - Linux
+			.mac - MacOS
+
+		Селекторы браузеров:
+			.ie - все версии ИЕ
+			.ie8 - ИЕ 8.х
+			.ie7 - ИЕ 7.x
+			.ie6 - ИЕ 6.x
+			.ie5 - ИЕ 5.x
+			.gecko - все версии фаерфокса, и остальные гекко-браузеры
+			.ff2 - фаерфокс 2
+			.ff3 - фаерфокс 3
+			.opera - все версии оперы
+			.opera8 - опера 8.x
+			.opera9 - опера 9.x
+			.konqueror - konqueror
+			.safari - сафари
+
+		Приоритеты на примере ФФ3:
+		1	.win.ff3 #id{background: #aaa}
+		2	.win.gecko #id{background: #f00}
+		3	.ff3 #id{background:#333}
+		4	.gecko #id{background:#00f}
+		5	.win #id{background: #ff0}
+ */
+
+/*---*/
+
+.pa{position: absolute !important;}
+.pr{position: relative !important;}
+.ps{position: static !important;}
+
+.oh{overflow: hidden !important;}
+.ov{overflow: visible !important;}
+
+.dn{display: none !important;}
+.db{display: block !important;}
+.dib{display: inline-block; *display: inline;vertical-align: top;zoom: 1;}
+
+.fn{float: none !important;}
+.fr{float: right !important;}
+.fl{float: left !important;}
+
+.wa{width: auto !important;}
+
+.m0{margin: 0 !important;}
+.mt0{margin-top: 0 !important;}
+.mr0{margin-right: 0 !important;}
+.mb0{margin-bottom: 0 !important;}
+.ml0{margin-left: 0 !important;}
+
+.p0{padding: 0 !important;}
+.pt0{padding-top: 0 !important;}
+.pr0{padding-right: 0 !important;}
+.pb0{padding-bottom: 0 !important;}
+.pl0{padding-left: 0 !important;}
+
+.fs12{font-size: 12px !important;}
+.fs13{font-size: 13px !important;}
+.fs14{font-size: 14px !important;}
+.fs16{font-size: 16px !important;}
+.fs18{font-size: 18px !important;}
+.fs20{font-size: 20px !important;}
+.fs24{font-size: 24px !important;}
+
+.tar{text-align: right !important;}
+.tac{text-align: center !important;}
+
+.tdn{text-decoration: none !important;}
+.tdn:hover{text-decoration: underline !important;}
+
+.ttu{text-transform: uppercase !important;}
+
+.vat{vertical-align: top !important;}
+
+.wsn{white-space: nowrap !important;}
+
+.cp{cursor: pointer;}
+
+.b0{border: 0 !important;}
+.bt0{border-top: 0 !important;}
+.br0{border-right: 0 !important;}
+.bb0{border-bottom: 0 !important;}
+.bl0{border-left: 0 !important;}
+
+.bbd{text-decoration: none !important; border-bottom: 1px dashed;}
+.bbd:hover{text-decoration: none !important; border-bottom: 0;}
+
+.bbdo{text-decoration: none !important; border-bottom: 1px dotted;}
+.bbdo:hover{text-decoration: none !important; border-bottom: 0;}
+
+.bgn{background: none !important;}
+
+
+/*---*/
+
+/*
+behavior: url(PIE.htc);
+*/
+
+
+.pagewrap{
+	position: relative;
+	min-height: 100%;
+}
+
+/*--- header ---*/
+.header{
+	position: relative;
+	height: 200px;
+	background: gray;
+}
+.header__inn{
+	width: 996px;
+	margin: 0 auto;
+}
+
+.header__top{
+	height: 150px;
+	border: 1px solid red !important;
+}
+
+.logo{
+	display: block;
+	float: left;
+	border: 1px solid red !important;
+}
+
+/*--- header navigation ---*/
+.header__nav{
+	clear: both;
+	background: green;
+}
+.header__nav__ul{
+	border: 1px solid red !important;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	clear: both;
+}
+.header__nav__ul__li{
+	float: left;
+	position: relative;
+	height: 50px;
+}
+.header__nav__ul__li:first-child{
+	margin-left: 10px;
+}
+.header__nav__ul__li__a{
+	display: block;
+	float: left;
+	height: 50px;
+	padding: 0 15px 0 15px;
+	font-size: 14px;
+	line-height: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid red !important;
+}
+.header__nav__ul__li:hover .header__nav__ul__li__a,
+.header__nav__ul__li__a:hover{
+	color: #fff;
+	background: #474747;
+}
+
+.header__nav__submenu{
+	background: green;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 50px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	clear: both;
+}
+.header__nav__submenu__li{
+}
+.header__nav__submenu__li__a{
+	display: block;
+	height: 50px;
+	font-size: 14px;
+	line-height: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	border: 1px solid red !important;
+}
+.header__nav__submenu__li__a:hover{
+	color: #fff;
+	background: #474747;
+}
+
+.header__nav__ul__li:hover .header__nav__submenu{
+	display: block;
+}
+
+/*--- footer ---*/
+.footer{
+	clear: both;
+	color: #ccc;
+	background: #c0c0c0;
+	position: relative;
+	margin-top: -50px;
+	height: 50px;
+}
+.footer__inn{
+	width: 996px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.footer a{
+	color: #fff;
+}
+
+.footer__nav{
+	float: right;
+	border: 1px solid red !important;
+}
+
+.footer__bottom{
+	float: left;
+	border: 1px solid red !important;
+}
+
+/*--- footer end---*/
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+.center{
+	width: 996px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+
+
+.content{
+	background: #fff;
+	margin: 30px 0 30px;
+	padding: 20px 35px;
+	width: 600px;
+	float: left;
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+.sidebar{
+	width: 280px;
+	float: right;
+	margin: 0;
+}
+
+
