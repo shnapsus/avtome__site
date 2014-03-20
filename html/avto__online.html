@@ -1,25 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 
-<title>Some Title</title>
+	<title>Some Title</title>
 
-<!-- main css -->
-<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<!-- main css -->
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/browserCSSdetector.js"></script>
-<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/browserCSSdetector.js"></script>
+	<script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
 
-<!--[if lt IE 10]>
+	<!--[if lt IE 10]>
 	<script src="js/PIE.js"></script>
-<![endif]-->
+	<![endif]-->
 
-<!-- html5.js for IE less than 9 -->
-<!--[if lt IE 9]>
+	<!-- html5.js for IE less than 9 -->
+	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+	<![endif]-->
 
 
 	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
@@ -46,653 +46,653 @@
 
 <div class="pagewrap">
 
-	<header class="header">
+<header class="header">
 
-		<div class="header__top">
-			<div class="header__inn">
+	<div class="header__top">
+		<div class="header__inn">
 
-				<div class="header__top__login">
-					<a href="#" class="header__top__login__a">Авторизация</a>
-					<div class="header__top__login__popup">
-						<h3>Вход на сайт</h3>
-						<label>Ваше имя</label><input type="text" class="txt"><br />
-						<label>Пароль</label><input type="text" class="txt">
-						<div><label for="ch1">Запомнить</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
-						<input class="btn" type="button" value="Войти"><br />
-						<div class="header__top__login__popup__sots">
-							Войти через:
-							<a href="#" class="sots sots1"></a>
-							<a href="#" class="sots sots2"></a>
-							<a href="#" class="sots sots3"></a>
-							<a href="#" class="sots sots4"></a>
-						</div>
-						<a href="#" class="header__top__login__popup__reg">Регистрация</a>
+			<div class="header__top__login">
+				<a href="#" class="header__top__login__a">Авторизация</a>
+				<div class="header__top__login__popup">
+					<h3>Вход на сайт</h3>
+					<label>Ваше имя</label><input type="text" class="txt"><br />
+					<label>Пароль</label><input type="text" class="txt">
+					<div><label for="ch1">Запомнить</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+					<input class="btn" type="button" value="Войти"><br />
+					<div class="header__top__login__popup__sots">
+						Войти через:
+						<a href="#" class="sots sots1"></a>
+						<a href="#" class="sots sots2"></a>
+						<a href="#" class="sots sots3"></a>
+						<a href="#" class="sots sots4"></a>
 					</div>
+					<a href="#" class="header__top__login__popup__reg">Регистрация</a>
 				</div>
-
-				<div class="header__top__city">
-					Ваш город: <a href="#">Москва</a>
-				</div>
-
-				<div class="header__top__info">
-					Новых авто: 7 027 084
-				</div>
-				<div class="header__top__info">
-					Автосалонов: 7 027 084
-				</div>
-				<div class="header__top__info">
-					Новых объявлениях: 7 027 084
-				</div>
-
 			</div>
-		</div>
 
-		<div class="header__bottom">
-			<div class="header__inn">
-				<a href="#" class="header__bottom__add">Добавить объявление</a>
-				<a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
-				<nav class="header__nav">
-					<ul class="header__nav__ul i-clearfix">
-						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Читальный зал</a></li>
-						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Новые авто</a></li>
-						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Автосалоны</a></li>
-						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Б/У авто</a></li>
-						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Полезности</a></li>
-						<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Новости</a></li>
-					</ul>
-				</nav>
+			<div class="header__top__city">
+				Ваш город: <a href="#">Москва</a>
 			</div>
-		</div>
 
-	</header>
-
-	<div class="center i-clearfix">
-
-		<aside class="sidebar">
-
-			<section class="sidebar__filter">
-				<h2>Каталог автомобилей</h2>
-				<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch2" /> <label for="ch2">новые</label></div>
-				<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch3" checked /> <label for="ch3">с пробегом </label></div>
-				<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch4" /> <label for="ch4">битые</label></div>
-
-				<div class="sidebar__filter__price">
-					<input type="text" class="txt" placeholder="от">
-					<span>-</span>
-					<input type="text" class="txt" placeholder="до">
-					<select name="s1" id="s1">
-						<option value="1">руб.</option>
-						<option value="2">дол.</option>
-						<option value="3">грн.</option>
-					</select>
-				</div>
-
-				<h3>Год выпуска</h3>
-				<div id="slider-range1"></div>
-
-				<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch5" /> <label for="ch5">автомат</label></div>
-				<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch6" /> <label for="ch6">механика</label></div>
-
-				<div class="sidebar__filter__opts">
-					<a href="#">Кузов</a>     <a href="#">Двигатель</a>     <a href="#">Детали</a>
-				</div>
-
-				<div class="sidebar__filter__types">
-					<a href="#" class="type1">седан</a>
-					<a href="#" class="type2">хэтчбек</a>
-					<a href="#" class="type3">универсал</a>
-					<a href="#" class="type4">внедорожник</a>
-					<a href="#" class="type5">кроссовер</a>
-					<a href="#" class="type6">пикап</a>
-					<a href="#" class="type7">купе</a>
-					<a href="#" class="type8">кабриолет</a>
-					<a href="#" class="type9">минивен</a>
-					<a href="#" class="type10">фургон</a>
-					<a href="#" class="type11">микроавтобус</a>
-				</div>
-
-				<h3>Размер кузова</h3>
-				<div class="sidebar__filter__btns">
-					<a href="#">малых</a>
-					<a href="#">средний</a>
-					<a href="#">большой</a>
-				</div>
-
-				<h3>Привод</h3>
-				<div class="sidebar__filter__btns">
-					<a href="#">передний</a>
-					<a href="#">задний</a>
-					<a href="#">полный</a>
-				</div>
-
-				<h3>Клиренс, мм</h3>
-				<div id="slider-range2"></div>
-
-				<h3>Объём багажника, л</h3>
-				<div id="slider-range3"></div>
-
-				<div class="sidebar__filter__price mb0">
-					<select name="s2" id="s2">
-						<option value="1">Количество сидений</option>
-						<option value="2">1</option>
-						<option value="3">2</option>
-						<option value="4">3</option>
-						<option value="5">4</option>
-						<option value="6">5</option>
-					</select>
-				</div>
-
-			</section>
-
-			<section class="sidebar__bnr">
-				<a href="#"><img src="images/tmp/sidebar__bnr.png" alt="" /></a>
-			</section>
-
-			<section class="sidebar__bnr">
-				<a href="#"><img src="images/tmp/sidebar__bnr.png" alt="" /></a>
-			</section>
-
-		</aside>
-
-
-		<div class="content">
-
-			<article class="top__bnr">
-				<div class="top__bnr__top">
-					<a href="#" class="cur">Новинки</a>
-					<a href="#">Популярные</a>
-					<a href="#">Горячие предложения</a>
-				</div>
-				<div class="top__bnr__bottom">
-					<img src="images/tmp/top__bnr__bottom.png" alt="" />
-					<span>
-						<strong>Skoda Yeti (только с салона)</strong><br />
-						184 954 – 294 304 руб.
-					</span>
-				</div>
-			</article>
-
-			<article class="main__news">
-				<dl class="tabs">
-					<dt class="selected">ЛЕНТА НОВОСТЕЙ</dt>
-					<dd class="selected">
-						<div class="tab-content i-clearfix">
-							<div class="main__news__left">
-								<h2><a href="#">ТЕМА ДНЯ</a></h2>
-								<div class="main__news__left__img">
-									<img src="images/tmp/main__news__left.png" alt="" />
-								</div>
-								<div class="main__news__left__news">
-									<strong><a href="#">Ненужные клиенты?</a></strong>
-									<span>11.05.2014</span>
-									В 2013—2014 годах было отозвано свыше 60 банковских лицензий. Буквально каждую неделю регулятор отзывает пару-тройку лицензий у банков-«неудачников» либо за неисполнение обязательств, либо за отмывочные операции. Таким образом, на рынке появилась масса свободных клиентов. Портал Банки.ру убедился
-								</div>
-							</div>
-							<div class="main__news__right">
-								<h2><a href="#">ЛЕНТА НОВОСТЕЙ</a></h2>
-								<ul>
-									<li><a href="#">Киев заблокировал все счета Крыма</a></li>
-									<li><a href="#">АСВ поставит «диагноз» Москомприватбанку до 12 марта</a></li>
-									<li><a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный портфель МСБ</a></li>
-									<li><a href="#">ЦБ получит право ограничивать объем переводов операторов по приему платежей</a></li>
-								</ul>
-								<div class="main__news__right__anons">
-									<img src="images/tmp/main__news__left.png" width="57" height="43" alt="" />
-									<span>07.03.2014</span>
-									<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
-								</div>
-								<div class="main__news__right__anons">
-									<img src="images/tmp/main__news__left.png" width="57" height="43" alt="" />
-									<span>07.03.2014</span>
-									<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
-								</div>
-								<div class="main__news__right__anons">
-									<img src="images/tmp/main__news__left.png" width="57" height="43" alt="" />
-									<span>07.03.2014</span>
-									<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
-								</div>
-								<div class="main__news__right__anons">
-									<img src="images/tmp/main__news__left.png" width="57" height="43" alt="" />
-									<span>07.03.2014</span>
-									<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
-								</div>
-							</div>
-						</div>
-					</dd>
-
-					<dt class="">ТЕМА ДНЯ</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-					<dt class="">ИНТЕРВЬЮ</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-					<dt class="">МНЕНИЕ</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-					<dt class="">ОБЗОР</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-					<dt class="">ПРЕССЫ</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-					<dt class="">ПРЕСС-РЕЛИЗЫ</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-				</dl>
-			</article>
-
-			<article class="main__reit">
-				<dl class="tabs">
-					<dt class="selected">Рейтинг автомобилей</dt>
-					<dd class="selected">
-						<div class="tab-content">
-							<div class="main__reit__inn i-clearfix">
-								<p>В 2013—2014 годах было отозвано свыше 60 банковских лицензий. Буквально каждую неделю регулятор отзывает пару-тройку лицензий у банков-«неудачников» либо за неисполнение обязательств, либо за отмывочные операции.</p>
-								<table>
-									<tr>
-										<th>Автомобиль</th>
-										<th>РЕЙТИНГ</th>
-									</tr>
-									<tr>
-										<td>1. Сбербанк России</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>2. ВТБ</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>1. Сбербанк России</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>2. ВТБ</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>1. Сбербанк России</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>2. ВТБ</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>1. Сбербанк России</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>2. ВТБ</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>1. Сбербанк России</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-									<tr>
-										<td>2. ВТБ</td>
-										<td>
-											<span class="star star1"></span>
-											<span class="star star1"></span>
-											<span class="star star2"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span class="star"></span>
-											<span>100 голосов</span>
-										</td>
-									</tr>
-								</table>
-							</div>
-						</div>
-					</dd>
-
-					<dt class="">Рейтинг автосалонов</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-					<dt class="">Рейтинг марок</dt>
-					<dd class="">
-						<div class="tab-content">
-							Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
-						</div>
-					</dd>
-
-				</dl>
-			</article>
-
-			<article class="main__all i-clearfix">
-				<div class="main__all__top">
-					<a href="#" class="cur">Все марки</a>
-					<a href="#">Популярные</a>
-				</div>
-				<ol type="A" start="1">
-					<li>
-						<a href="#">Acura</a><br />
-						<a href="#">Alfa Romeo</a><br />
-						<a href="#">Alpina</a><br />
-						<a href="#">Aro</a><br />
-						<a href="#">Asia</a><br />
-						<a href="#">Aston Martin</a><br />
-						<a href="#">Audi</a><br />
-					</li>
-					<li>
-						<a href="#">BMW</a><br />
-						<a href="#">BYD</a><br />
-						<a href="#">Bentley</a><br />
-						<a href="#">Bogdan</a><br />
-						<a href="#">Brilliance</a><br />
-						<a href="#">Bugatti</a><br />
-						<a href="#">Buick</a><br />
-					</li>
-					<li>
-						<a href="#">Cadillac</a><br />
-						<a href="#">Changan</a><br />
-						<a href="#">Changfeng</a><br />
-						<a href="#">Chery</a><br />
-						<a href="#">Chevrolet</a><br />
-						<a href="#">Chrysler</a><br />
-						<a href="#">Citroen</a><br />
-					</li>
-				</ol>
-				<ol type="A" start="4">
-					<li>
-						<a href="#">Dacia</a><br />
-						<a href="#">Dadi</a><br />
-						<a href="#">Daewoo</a><br />
-						<a href="#">Daihatsu</a><br />
-						<a href="#">Derways</a><br />
-						<a href="#">Dodge</a><br />
-					</li>
-					<li>
-						<a href="#">Eagle</a>
-					</li>
-					<li>
-						<a href="#">FAW</a><br />
-						<a href="#">Ferrari</a><br />
-						<a href="#">Fiat</a><br />
-						<a href="#">Ford</a>
-					</li>
-					<li>
-						<a href="#">GMC</a><br />
-						<a href="#">Geely</a><br />
-						<a href="#">Great Wall</a>
-					</li>
-					<li>
-						<a href="#">Hafei</a><br />
-						<a href="#">Haima</a><br />
-						<a href="#">Honda</a><br />
-						<a href="#">Hummer</a><br />
-						<a href="#">Hyundai</a>
-					</li>
-				</ol>
-				<ol type="A" start="9">
-					<li>
-						<a href="#">Infiniti</a><br />
-						<a href="#">Iran Khodro</a><br />
-						<a href="#">Isuzu</a><br />
-					</li>
-					<li>
-						<a href="#">JMC</a><br />
-						<a href="#">Jaguar</a><br />
-						<a href="#">Jeep</a>
-					</li>
-					<li>
-						<a href="#">Kia</a>
-					</li>
-					<li>
-						<a href="#">Lada (ВАЗ)</a><br />
-						<a href="#">Lamborghini</a><br />
-						<a href="#">Lancia</a><br />
-						<a href="#">Land Rover</a><br />
-						<a href="#">Lexus</a><br />
-						<a href="#">Lifan</a><br />
-						<a href="#">Lincoln</a><br />
-						<a href="#">Lotus</a><br />
-						<a href="#">Luxgen</a>
-					</li>
-				</ol>
-				<ol type="A" start="13">
-					<li>
-						<a href="#">MG</a><br />
-						<a href="#">MINI</a><br />
-						<a href="#">Maserati</a><br />
-						<a href="#">Maybach</a><br />
-						<a href="#">Mazda</a><br />
-						<a href="#">Mercedes-Benz</a><br />
-						<a href="#">Mercury</a><br />
-						<a href="#">Mitsubishi</a><br />
-						<a href="#">Mitsuoka</a><br />
-					</li>
-					<li>
-						<a href="#">Nissan</a>
-					</li>
-					<li>
-						<a href="#">Opel</a>
-					</li>
-					<li>
-						<a href="#">Peugeot</a><br />
-						<a href="#">Pontiac</a><br />
-						<a href="#">Porsche</a><br />
-						<a href="#">Renault</a><br />
-						<a href="#">Rolls-Royce</a><br />
-						<a href="#">Rover</a>
-					</li>
-				</ol>
-				<ol type="A" start="19">
-					<li>
-						<a href="#">Saab</a><br />
-						<a href="#">Seat</a><br />
-						<a href="#">Skoda</a><br />
-						<a href="#">Smart</a><br />
-						<a href="#">SsangYong</a><br />
-						<a href="#">Subaru</a><br />
-						<a href="#">Suzuki</a>
-					</li>
-					<li>
-						<a href="#">Toyota</a>
-					</li>
-					<li value="22">
-						<a href="#">Volkswagen</a><br />
-						<a href="#">Volvo</a><br />
-						<a href="#">Vortex</a>
-					</li>
-					<li value="26">
-						<a href="#">ZAZ</a><br />
-
-						<a href="#"><em>Г.</em>ГАЗ</a><br />
-						<a href="#"><em>И.</em>ИЖ</a><br />
-						<a href="#"><em>М.</em>Москвич</a><br />
-						<a href="#"><em>Т.</em>ТагАЗ</a><br />
-						<a href="#"><em>У.</em>УАЗ</a><br />
-					</li>
-				</ol>
-			</article>
-
-			<article class="main__bnr">
-				<a href="#"><img src="images/tmp/sidebar__bnr.png" alt="" width="664" height="78" /></a>
-			</article>
+			<div class="header__top__info">
+				Новых авто: 7 027 084
+			</div>
+			<div class="header__top__info">
+				Автосалонов: 7 027 084
+			</div>
+			<div class="header__top__info">
+				Новых объявлениях: 7 027 084
+			</div>
 
 		</div>
 	</div>
 
-
-	<footer class="footer">
-		<div class="footer__inn i-clearfix">
-			<div class="footer__sots">
-				<a href="#" class="sots sots1"></a>
-				<a href="#" class="sots sots2"></a>
-				<a href="#" class="sots sots3"></a>
-				<a href="#" class="sots sots4"></a>
-			</div>
-
-			<div class="footer__copyright">
-				© avtome.ru 2014
-			</div>
-
-			<div class="footer__links">
-				<strong>Название категории</strong>
-				<ul>
-					<li><a href="#">Пользовательское соглашение</a></li>
-					<li><a href="#">Правила сайта</a></li>
-					<li><a href="#">Перечень платных услуг</a></li>
-					<li><a href="#">Перечень бесплатных услуг</a></li>
-					<li><a href="#">Требования к ПО</a></li>
+	<div class="header__bottom">
+		<div class="header__inn">
+			<a href="#" class="header__bottom__add">Добавить объявление</a>
+			<a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
+			<nav class="header__nav">
+				<ul class="header__nav__ul i-clearfix">
+					<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Читальный зал</a></li>
+					<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Новые авто</a></li>
+					<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Автосалоны</a></li>
+					<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Б/У авто</a></li>
+					<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Полезности</a></li>
+					<li class="header__nav__ul__li"><a href="#" class="header__nav__ul__li__a">Новости</a></li>
 				</ul>
-			</div>
-
-			<div class="footer__links">
-				<strong>Название категории</strong>
-				<ul>
-					<li><a href="#">Пользовательское соглашение</a></li>
-					<li><a href="#">Правила сайта</a></li>
-					<li><a href="#">Перечень платных услуг</a></li>
-					<li><a href="#">Перечень бесплатных услуг</a></li>
-					<li><a href="#">Требования к ПО</a></li>
-				</ul>
-			</div>
-
-			<div class="footer__links">
-				<strong>Название категории</strong>
-				<ul>
-					<li><a href="#">Пользовательское соглашение</a></li>
-					<li><a href="#">Правила сайта</a></li>
-					<li><a href="#">Перечень платных услуг</a></li>
-					<li><a href="#">Перечень бесплатных услуг</a></li>
-					<li><a href="#">Требования к ПО</a></li>
-				</ul>
-			</div>
-
+			</nav>
 		</div>
-	</footer>
+	</div>
+
+</header>
+
+<div class="center i-clearfix">
+
+<aside class="sidebar">
+
+	<section class="sidebar__filter">
+		<h2>Каталог автомобилей</h2>
+		<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch2" /> <label for="ch2">новые</label></div>
+		<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch3" checked /> <label for="ch3">с пробегом </label></div>
+		<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch4" /> <label for="ch4">битые</label></div>
+
+		<div class="sidebar__filter__price">
+			<input type="text" class="txt" placeholder="от">
+			<span>-</span>
+			<input type="text" class="txt" placeholder="до">
+			<select name="s1" id="s1">
+				<option value="1">руб.</option>
+				<option value="2">дол.</option>
+				<option value="3">грн.</option>
+			</select>
+		</div>
+
+		<h3>Год выпуска</h3>
+		<div id="slider-range1"></div>
+
+		<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch5" /> <label for="ch5">автомат</label></div>
+		<div class="ch__line"><input type="checkbox" class="niceCheck" id="ch6" /> <label for="ch6">механика</label></div>
+
+		<div class="sidebar__filter__opts">
+			<a href="#">Кузов</a>     <a href="#">Двигатель</a>     <a href="#">Детали</a>
+		</div>
+
+		<div class="sidebar__filter__types">
+			<a href="#" class="type1">седан</a>
+			<a href="#" class="type2">хэтчбек</a>
+			<a href="#" class="type3">универсал</a>
+			<a href="#" class="type4">внедорожник</a>
+			<a href="#" class="type5">кроссовер</a>
+			<a href="#" class="type6">пикап</a>
+			<a href="#" class="type7">купе</a>
+			<a href="#" class="type8">кабриолет</a>
+			<a href="#" class="type9">минивен</a>
+			<a href="#" class="type10">фургон</a>
+			<a href="#" class="type11">микроавтобус</a>
+		</div>
+
+		<h3>Размер кузова</h3>
+		<div class="sidebar__filter__btns">
+			<a href="#">малых</a>
+			<a href="#">средний</a>
+			<a href="#">большой</a>
+		</div>
+
+		<h3>Привод</h3>
+		<div class="sidebar__filter__btns">
+			<a href="#">передний</a>
+			<a href="#">задний</a>
+			<a href="#">полный</a>
+		</div>
+
+		<h3>Клиренс, мм</h3>
+		<div id="slider-range2"></div>
+
+		<h3>Объём багажника, л</h3>
+		<div id="slider-range3"></div>
+
+		<div class="sidebar__filter__price mb0">
+			<select name="s2" id="s2">
+				<option value="1">Количество сидений</option>
+				<option value="2">1</option>
+				<option value="3">2</option>
+				<option value="4">3</option>
+				<option value="5">4</option>
+				<option value="6">5</option>
+			</select>
+		</div>
+
+	</section>
+
+	<section class="sidebar__bnr">
+		<a href="#"><img src="images/tmp/sidebar--bnr.png" alt="" /></a>
+	</section>
+
+	<section class="sidebar__bnr">
+		<a href="#"><img src="images/tmp/sidebar--bnr.png" alt="" /></a>
+	</section>
+
+</aside>
+
+
+<div class="content">
+
+<article class="top__bnr">
+	<div class="top__bnr__top">
+		<a href="#" class="cur">Новинки</a>
+		<a href="#">Популярные</a>
+		<a href="#">Горячие предложения</a>
+	</div>
+	<div class="top__bnr__bottom">
+		<img src="images/tmp/top--bnr--bottom.png" alt="" />
+					<span>
+						<strong>Skoda Yeti (только с салона)</strong><br />
+						184 954 – 294 304 руб.
+					</span>
+	</div>
+</article>
+
+<article class="main__news">
+	<dl class="tabs">
+		<dt class="selected">ЛЕНТА НОВОСТЕЙ</dt>
+		<dd class="selected">
+			<div class="tab-content i-clearfix">
+				<div class="main__news__left">
+					<h2><a href="#">ТЕМА ДНЯ</a></h2>
+					<div class="main__news__left__img">
+						<img src="images/tmp/main--news--left.png" alt="" />
+					</div>
+					<div class="main__news__left__news">
+						<strong><a href="#">Ненужные клиенты?</a></strong>
+						<span>11.05.2014</span>
+						В 2013—2014 годах было отозвано свыше 60 банковских лицензий. Буквально каждую неделю регулятор отзывает пару-тройку лицензий у банков-«неудачников» либо за неисполнение обязательств, либо за отмывочные операции. Таким образом, на рынке появилась масса свободных клиентов. Портал Банки.ру убедился
+					</div>
+				</div>
+				<div class="main__news__right">
+					<h2><a href="#">ЛЕНТА НОВОСТЕЙ</a></h2>
+					<ul>
+						<li><a href="#">Киев заблокировал все счета Крыма</a></li>
+						<li><a href="#">АСВ поставит «диагноз» Москомприватбанку до 12 марта</a></li>
+						<li><a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный портфель МСБ</a></li>
+						<li><a href="#">ЦБ получит право ограничивать объем переводов операторов по приему платежей</a></li>
+					</ul>
+					<div class="main__news__right__anons">
+						<img src="images/tmp/main--news--left.png" width="57" height="43" alt="" />
+						<span>07.03.2014</span>
+						<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
+					</div>
+					<div class="main__news__right__anons">
+						<img src="images/tmp/main--news--left.png" width="57" height="43" alt="" />
+						<span>07.03.2014</span>
+						<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
+					</div>
+					<div class="main__news__right__anons">
+						<img src="images/tmp/main--news--left.png" width="57" height="43" alt="" />
+						<span>07.03.2014</span>
+						<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
+					</div>
+					<div class="main__news__right__anons">
+						<img src="images/tmp/main--news--left.png" width="57" height="43" alt="" />
+						<span>07.03.2014</span>
+						<a href="#">ВТБ 24 не будет в ближайшее время секьюритизировать кредитный</a>
+					</div>
+				</div>
+			</div>
+		</dd>
+
+		<dt class="">ТЕМА ДНЯ</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+		<dt class="">ИНТЕРВЬЮ</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+		<dt class="">МНЕНИЕ</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+		<dt class="">ОБЗОР</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+		<dt class="">ПРЕССЫ</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+		<dt class="">ПРЕСС-РЕЛИЗЫ</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+	</dl>
+</article>
+
+<article class="main__reit">
+	<dl class="tabs">
+		<dt class="selected">Рейтинг автомобилей</dt>
+		<dd class="selected">
+			<div class="tab-content">
+				<div class="main__reit__inn i-clearfix">
+					<p>В 2013—2014 годах было отозвано свыше 60 банковских лицензий. Буквально каждую неделю регулятор отзывает пару-тройку лицензий у банков-«неудачников» либо за неисполнение обязательств, либо за отмывочные операции.</p>
+					<table>
+						<tr>
+							<th>Автомобиль</th>
+							<th>РЕЙТИНГ</th>
+						</tr>
+						<tr>
+							<td>1. Сбербанк России</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>2. ВТБ</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>1. Сбербанк России</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>2. ВТБ</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>1. Сбербанк России</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>2. ВТБ</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>1. Сбербанк России</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>2. ВТБ</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>1. Сбербанк России</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+						<tr>
+							<td>2. ВТБ</td>
+							<td>
+								<span class="star star1"></span>
+								<span class="star star1"></span>
+								<span class="star star2"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span class="star"></span>
+								<span>100 голосов</span>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</dd>
+
+		<dt class="">Рейтинг автосалонов</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+		<dt class="">Рейтинг марок</dt>
+		<dd class="">
+			<div class="tab-content">
+				Suspendisse eleifend nisi at ante. Phasellus euismod vestibulum nisl. Donec est mi, ultrices eget, feugiat at, pretium vitae, est. Aliquam a leo at massa dapibus consectetur. Sed eu arcu. In et felis. Cras vel justo egestas lectus tincidunt blandit. Vestibulum eu tellus non ipsum tristique adipiscing. Proin rhoncus ipsum id lorem. Etiam vulputate lectus ut urna. Nullam leo nisi, lacinia sit amet, eleifend sed, ornare sit amet, velit. Curabitur consequat est. Nullam nunc ligula, faucibus non, lacinia vel, lacinia et, mauris. Etiam pharetra cursus tellus. Proin vehicula.
+			</div>
+		</dd>
+
+	</dl>
+</article>
+
+<article class="main__all i-clearfix">
+	<div class="main__all__top">
+		<a href="#" class="cur">Все марки</a>
+		<a href="#">Популярные</a>
+	</div>
+	<ol type="A" start="1">
+		<li>
+			<a href="#">Acura</a><br />
+			<a href="#">Alfa Romeo</a><br />
+			<a href="#">Alpina</a><br />
+			<a href="#">Aro</a><br />
+			<a href="#">Asia</a><br />
+			<a href="#">Aston Martin</a><br />
+			<a href="#">Audi</a><br />
+		</li>
+		<li>
+			<a href="#">BMW</a><br />
+			<a href="#">BYD</a><br />
+			<a href="#">Bentley</a><br />
+			<a href="#">Bogdan</a><br />
+			<a href="#">Brilliance</a><br />
+			<a href="#">Bugatti</a><br />
+			<a href="#">Buick</a><br />
+		</li>
+		<li>
+			<a href="#">Cadillac</a><br />
+			<a href="#">Changan</a><br />
+			<a href="#">Changfeng</a><br />
+			<a href="#">Chery</a><br />
+			<a href="#">Chevrolet</a><br />
+			<a href="#">Chrysler</a><br />
+			<a href="#">Citroen</a><br />
+		</li>
+	</ol>
+	<ol type="A" start="4">
+		<li>
+			<a href="#">Dacia</a><br />
+			<a href="#">Dadi</a><br />
+			<a href="#">Daewoo</a><br />
+			<a href="#">Daihatsu</a><br />
+			<a href="#">Derways</a><br />
+			<a href="#">Dodge</a><br />
+		</li>
+		<li>
+			<a href="#">Eagle</a>
+		</li>
+		<li>
+			<a href="#">FAW</a><br />
+			<a href="#">Ferrari</a><br />
+			<a href="#">Fiat</a><br />
+			<a href="#">Ford</a>
+		</li>
+		<li>
+			<a href="#">GMC</a><br />
+			<a href="#">Geely</a><br />
+			<a href="#">Great Wall</a>
+		</li>
+		<li>
+			<a href="#">Hafei</a><br />
+			<a href="#">Haima</a><br />
+			<a href="#">Honda</a><br />
+			<a href="#">Hummer</a><br />
+			<a href="#">Hyundai</a>
+		</li>
+	</ol>
+	<ol type="A" start="9">
+		<li>
+			<a href="#">Infiniti</a><br />
+			<a href="#">Iran Khodro</a><br />
+			<a href="#">Isuzu</a><br />
+		</li>
+		<li>
+			<a href="#">JMC</a><br />
+			<a href="#">Jaguar</a><br />
+			<a href="#">Jeep</a>
+		</li>
+		<li>
+			<a href="#">Kia</a>
+		</li>
+		<li>
+			<a href="#">Lada (ВАЗ)</a><br />
+			<a href="#">Lamborghini</a><br />
+			<a href="#">Lancia</a><br />
+			<a href="#">Land Rover</a><br />
+			<a href="#">Lexus</a><br />
+			<a href="#">Lifan</a><br />
+			<a href="#">Lincoln</a><br />
+			<a href="#">Lotus</a><br />
+			<a href="#">Luxgen</a>
+		</li>
+	</ol>
+	<ol type="A" start="13">
+		<li>
+			<a href="#">MG</a><br />
+			<a href="#">MINI</a><br />
+			<a href="#">Maserati</a><br />
+			<a href="#">Maybach</a><br />
+			<a href="#">Mazda</a><br />
+			<a href="#">Mercedes-Benz</a><br />
+			<a href="#">Mercury</a><br />
+			<a href="#">Mitsubishi</a><br />
+			<a href="#">Mitsuoka</a><br />
+		</li>
+		<li>
+			<a href="#">Nissan</a>
+		</li>
+		<li>
+			<a href="#">Opel</a>
+		</li>
+		<li>
+			<a href="#">Peugeot</a><br />
+			<a href="#">Pontiac</a><br />
+			<a href="#">Porsche</a><br />
+			<a href="#">Renault</a><br />
+			<a href="#">Rolls-Royce</a><br />
+			<a href="#">Rover</a>
+		</li>
+	</ol>
+	<ol type="A" start="19">
+		<li>
+			<a href="#">Saab</a><br />
+			<a href="#">Seat</a><br />
+			<a href="#">Skoda</a><br />
+			<a href="#">Smart</a><br />
+			<a href="#">SsangYong</a><br />
+			<a href="#">Subaru</a><br />
+			<a href="#">Suzuki</a>
+		</li>
+		<li>
+			<a href="#">Toyota</a>
+		</li>
+		<li value="22">
+			<a href="#">Volkswagen</a><br />
+			<a href="#">Volvo</a><br />
+			<a href="#">Vortex</a>
+		</li>
+		<li value="26">
+			<a href="#">ZAZ</a><br />
+
+			<a href="#"><em>Г.</em>ГАЗ</a><br />
+			<a href="#"><em>И.</em>ИЖ</a><br />
+			<a href="#"><em>М.</em>Москвич</a><br />
+			<a href="#"><em>Т.</em>ТагАЗ</a><br />
+			<a href="#"><em>У.</em>УАЗ</a><br />
+		</li>
+	</ol>
+</article>
+
+<article class="main__bnr">
+	<a href="#"><img src="images/tmp/sidebar--bnr.png" alt="" width="664" height="78" /></a>
+</article>
+
+</div>
+</div>
+
+
+<footer class="footer">
+	<div class="footer__inn i-clearfix">
+		<div class="footer__sots">
+			<a href="#" class="sots sots1"></a>
+			<a href="#" class="sots sots2"></a>
+			<a href="#" class="sots sots3"></a>
+			<a href="#" class="sots sots4"></a>
+		</div>
+
+		<div class="footer__copyright">
+			© avtome.ru 2014
+		</div>
+
+		<div class="footer__links">
+			<strong>Название категории</strong>
+			<ul>
+				<li><a href="#">Пользовательское соглашение</a></li>
+				<li><a href="#">Правила сайта</a></li>
+				<li><a href="#">Перечень платных услуг</a></li>
+				<li><a href="#">Перечень бесплатных услуг</a></li>
+				<li><a href="#">Требования к ПО</a></li>
+			</ul>
+		</div>
+
+		<div class="footer__links">
+			<strong>Название категории</strong>
+			<ul>
+				<li><a href="#">Пользовательское соглашение</a></li>
+				<li><a href="#">Правила сайта</a></li>
+				<li><a href="#">Перечень платных услуг</a></li>
+				<li><a href="#">Перечень бесплатных услуг</a></li>
+				<li><a href="#">Требования к ПО</a></li>
+			</ul>
+		</div>
+
+		<div class="footer__links">
+			<strong>Название категории</strong>
+			<ul>
+				<li><a href="#">Пользовательское соглашение</a></li>
+				<li><a href="#">Правила сайта</a></li>
+				<li><a href="#">Перечень платных услуг</a></li>
+				<li><a href="#">Перечень бесплатных услуг</a></li>
+				<li><a href="#">Требования к ПО</a></li>
+			</ul>
+		</div>
+
+	</div>
+</footer>
 
 
 </div>
