@@ -1071,6 +1071,7 @@ CONTENT
 .main__all ol a em{
 	position: absolute;
 	left: -20px;
+	top: -4px;
 	font-size: 14px;
 	font-style: normal;
 	text-decoration: none;
