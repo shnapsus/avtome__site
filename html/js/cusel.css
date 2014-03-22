@@ -17,7 +17,7 @@
 	cursor: pointer;
 	font-size: 14px;
 	z-index: 1;
-	background: red !important;
+	background: #d90a0a !important;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	outline: none;
