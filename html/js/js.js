@@ -5,11 +5,11 @@ $(document).ready(function(){
 
 		return false;
 	});
-	$('.header__top__login').hover(
+	$('.header').hover(
 			function () {
 			},
 			function () {
-				$(this).removeClass('open');
+				$('.header__top__login').removeClass('open');
 			}
 	);
 
@@ -69,6 +69,18 @@ $(document).ready(function(){
 		$(this).siblings().removeClass('selected').end().next('dd').andSelf().addClass('selected');
 	});
 
+
+	if($('.scroll').length>0){
+		$('.scroll').cycle({
+			fx:     'scrollHorz',
+			speed:   400,
+			timeout: 0,
+			pager:  '.scroll_pager',
+			pagerAnchorBuilder: function(idx, slide) {
+				return '<a href="#"></a>';
+			}
+		});
+	}
 
 	jQuery('input[placeholder], textarea[placeholder]').placeholder();
 });

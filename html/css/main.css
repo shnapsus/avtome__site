@@ -851,6 +851,12 @@ CONTENT
 	text-transform: uppercase;
 	color: #ffffff;
 }
+.top__bnr__bottom span strong a{
+	font-size: 24px;
+	font-family: 'Roboto Condensed';
+	text-decoration: none;
+	color: #ffffff;
+}
 
 
 
@@ -1850,6 +1856,18 @@ CONTENT
 .comments__frm{
 	padding: 0 0 18px 0;
 }
+.comments__frm img{
+	float: left;
+	margin: 0 11px 0 0;
+}
+.comments__frm textarea{
+	width: 890px;
+	height: 16px;
+	padding: 9px 10px;
+	font-size: 12px;
+	color: #c1c1c1;
+	border: 1px solid #c1c1c1;
+}
 
 .comment{
 	overflow: hidden;
@@ -2104,8 +2122,62 @@ CONTENT
 }
 
 .salon__bnr{
+	position: relative;
 	margin: 0 0 20px 0;
 }
+.salon__bnr .scroll{
+	z-index: 1;
+}
+.salon__bnr .scroll_pager{
+	position: absolute;
+	z-index: 2;
+	right: 20px;
+	bottom: 11px;
+}
+.salon__bnr .scroll_pager a{
+	display: inline-block;
+	*display: inline;
+	vertical-align: top;
+	zoom: 1;
+	width: 9px;
+	height: 9px;
+	margin: 0 0 0 14px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #d10003;
+	background: #FFF;
+}
+.salon__bnr .scroll_pager a.activeSlide{
+	background: #d10003;
+}
+.scroll__item{
+}
+.scroll__item span{
+	position: absolute;
+	right: 57px;
+	top: 60px;
+	padding: 15px 30px;
+	font-size: 36px;
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+	color: #FFF;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: #ff0000;
+}
+.scroll__item strong{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	font-size: 32px;
+	font-family: 'Roboto Condensed';
+	font-weight: normal;
+	text-align: center;
+	color: #FFF;
+}
+
+
 
 .salon__map{
 	clear: both;
@@ -2173,7 +2245,11 @@ CONTENT
 	background: url(../images/salon__top.png) left 4px repeat-x;
 }
 .salon .news__list h2 span{
-	padding: 0 15px 0 0;
+	display: inline-block;
+	*display: inline;
+	vertical-align: top;
+	zoom: 1;
+	padding: 0 15px 2px 0;
 	font-family: 'Roboto Condensed';
 	background: #FFF;
 }
@@ -2242,6 +2318,15 @@ CONTENT
 	color: #000000;
 	background: #FFF;
 }
+.salon .comments__frm textarea{
+	width: 552px;
+	height: 16px;
+	padding: 9px 10px;
+	font-size: 12px;
+	color: #c1c1c1;
+	border: 1px solid #c1c1c1;
+}
+
 
 
 .comment__inn__top{
